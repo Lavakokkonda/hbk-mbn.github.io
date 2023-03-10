@@ -1,0 +1,45 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Eczar', serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+header {
+    background-color: rgb(250, 195, 59);
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+}
+
+.logo {
+display: flex;
+align-items: center;
+}
+
+img {
+height: 50px;
+margin-right: 10px;
+}
+
+h1 {
+font-size: 44px;
+margin: 0;
+}
+
+nav {
+display: flex;
+justify-content: flex-end;
+}
+
+a {
+color: #fff;
+text-decoration: none;
+margin-left: 20px;
+font-size: 18px;
+}

@@ -1,21 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Job Portal</title>
-    <link rel="stylesheet" href="../CSS/Home.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">  <link rel="stylesheet" href="../CSS/Home.css">
+    <title>ForYouJobs</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
-    <header>
-        <div id="headera"><h1>JOB PORTAL</h1></div>
-        <div id="headerb"><ul id="listcontainer">
-            <li class="list">HOME</li>
-            <li class="list">JOBS BY BATCHES</li>
-            <li class="list">JOBS BY CATEGORY</li>
-            <li class="list">JOBS BY CITY</li>
-        </ul></div>
-    </header>
+  
+  <div class="top-bar">
+		<div>
+			<span class="date" id="date"></span>
+			<span class="day" id="day"></span>
+		</div>
+		<div class="social-media">
+			<i class="fa-brands fa-whatsapp" id="whatsapp"></i>
+			<i class="fab fa-twitter"></i>
+			<i class="fab fa-linkedin"></i>
+			<i class="fab fa-telegram"></i>
+			<i class="fab fa-instagram"></i>
+		</div>
+	</div>
+
+
+
+  <header>
+  <nav class="navbar">
+    <div class="navbar__left">
+      <a href="#" class="navbar__logo">ForYou Jobs</a> 
+    </div>
+    <div class="navbar__right">
+      <ul class="navbar__list">
+        <li class="navbar__item"><a href="#">Home</a></li>
+        <li class="navbar__item"><a href="#">Jobs</a></li>
+        <li class="navbar__item"><a href="#">About Us</a></li>
+        <li class="navbar__item"><a href="#">Contact</a></li>
+      </ul>
+      <button class="navbar__toggle-button" onclick="toggleMenu()">&#9776;</button>
+      <!-- <span class="navbar__page-name">Home</span> -->
+    </div>
+  </nav>
+</header>
+
+
+<main>
+  <!-- Main content here -->
+  <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quia beatae in sed fuga delectus vero, nemo repellat unde a, dolor, pariatur laboriosam voluptas porro veritatis non adipisci explicabo esse ex. Repellendus, odit eaque incidunt vitae, doloribus veniam molestias voluptatum ut aliquam quis quam blanditiis natus dolores. Neque fugit dicta quisquam nobis similique, inventore quae molestiae nostrum harum consequatur. Beatae ipsum optio placeat iure, ducimus ipsam aspernatur quaerat saepe quidem, cupiditate soluta ex velit. Ducimus temporibus nostrum enim vitae aperiam, corrupti unde quos deleniti dolorum fugiat, amet reprehenderit tempore magnam nam placeat! Quis qui blanditiis cupiditate enim omnis, voluptate incidunt perferendis minus quasi asperiores perspiciatis a ut magnam doloremque nulla ad mollitia? Excepturi, quidem? In veniam, ut, itaque sit modi quasi odit, aliquam reiciendis nemo earum voluptatum asperiores suscipit. Autem quasi adipisci, ducimus ipsum doloremque veritatis suscipit vel quia sequi provident optio tempore omnis ullam deleniti exercitationem cumque doloribus! Sequi maiores enim modi explicabo accusantium aperiam sint ad dignissimos quos quisquam alias rerum nemo deserunt, laboriosam libero id itaque necessitatibus sunt, quasi porro provident a reprehenderit? Nihil quis, modi nam voluptatem maxime commodi officiis cum adipisci nisi quisquam velit voluptatum! Ex, cumque? Voluptatum sit possimus nesciunt repudiandae, cumque eveniet, veritatis eligendi consectetur nemo in veniam. Id nostrum reprehenderit maiores adipisci repellat maxime alias eos, quo animi nisi ipsum recusandae aspernatur numquam ipsam distinctio consectetur, magni deleniti aperiam fugiat culpa assumenda obcaecati est dolorem! Numquam totam soluta, harum nihil, ad nobis voluptate at praesentium odit quaerat quidem aspernatur expedita quas magni distinctio doloribus a similique molestiae, adipisci tempore? Nisi itaque aliquam, modi iusto nihil velit dolores. Incidunt pariatur eius in commodi, quaerat impedit itaque repudiandae quas natus quod totam? Excepturi odio molestias ipsam eligendi voluptatum incidunt maiores et, nostrum necessitatibus, sequi, iure veniam eius eveniet placeat repudiandae officiis nesciunt. Aspernatur, ullam enim esse voluptatem porro sed doloribus iusto provident deleniti nihil dignissimos eum vero obcaecati officiis ad aliquid eveniet fuga magnam nam cum quae corrupti perspiciatis perferendis iste! Magnam vero saepe, porro aliquid, quae recusandae molestiae, minima repellat fuga odit reiciendis alias cumque optio. Eos numquam dignissimos molestiae facere cumque ducimus, facilis asperiores sequi itaque pariatur commodi quibusdam atque consectetur? Veritatis neque odio fugiat asperiores vero, obcaecati vitae eos tenetur esse hic dignissimos accusamus facilis, cupiditate incidunt deleniti aliquam, ducimus enim quod libero nemo expedita consequuntur? Vel est quia molestiae porro totam recusandae ab dolorem, sed praesentium iste dolores a fugiat quasi accusamus laborum nam necessitatibus quas delectus amet enim similique nisi ad facilis tenetur? Nam repellendus facilis, a quam optio nihil pariatur est eligendi officiis vitae soluta, labore veritatis corporis repudiandae numquam perferendis aliquam facere quas delectus! Doloribus perferendis labore ex necessitatibus, obcaecati iste sapiente quisquam praesentium laboriosam, cum maxime enim architecto repellat eligendi delectus libero atque dolor et quidem quae fuga velit! Officiis, delectus rem maiores ipsam ea pariatur perspiciatis explicabo. Aperiam, ipsa nesciunt quas tenetur soluta velit blanditiis neque et explicabo, corporis accusantium quibusdam quia sint. Ut explicabo officia asperiores. Non rem dolore laudantium laborum earum, eius officia unde facere veniam illo vel perspiciatis est delectus quia laboriosam repellendus impedit exercitationem, asperiores commodi corporis ullam nulla? Quos officiis explicabo dignissimos, beatae aliquam deserunt fugit quae provident fuga numquam a repellat totam tempora nostrum cupiditate expedita ut, delectus distinctio incidunt, ducimus in sapiente necessitatibus. Modi vitae soluta at? Culpa dolore sapiente dolores quis itaque fugiat quasi dolorem aliquam inventore perferendis qui, facilis velit maxime eligendi quod blanditiis minima repellendus mollitia voluptates accusantium similique. Quod dolores molestiae nulla enim ipsam exercitationem, eos vitae. Nulla, porro. Temporibus repellat distinctio facilis, architecto dolore consequuntur velit animi, blanditiis amet aliquam, in praesentium placeat quis reiciendis dolor? Odit quo optio nemo ipsa tempora reiciendis blanditiis quasi neque alias? Ratione doloremque quidem enim magni est iste praesentium animi aliquid, ipsa rem vitae optio illo nobis molestiae aut iure? Sunt maxime, ipsum repudiandae accusantium optio labore mollitia necessitatibus. Recusandae, quos neque at architecto nihil excepturi veniam libero tempore quia non ea vitae. Aut quos voluptas suscipit magnam? Totam, harum possimus! Necessitatibus, quibusdam! Dignissimos incidunt minus, qui voluptatibus dolorum aliquid quia eos voluptates, debitis facilis, possimus exercitationem blanditiis libero fuga totam velit autem dicta omnis molestiae mollitia aspernatur accusamus commodi officiis! Officiis ipsa, facilis reprehenderit quis, voluptate dolore nisi autem aspernatur, vero necessitatibus ad praesentium ipsam mollitia placeat nulla impedit. Provident non nemo facere odit architecto maxime ea, quam quibusdam! Amet laborum deleniti similique numquam. Totam, repellat? Esse deleniti sit laboriosam? Doloribus at nulla a quos, rerum nostrum debitis quae asperiores labore vitae esse! Rerum inventore soluta dicta neque, incidunt, corporis, voluptatibus sint repellat hic maxime mollitia temporibus? Sapiente porro perferendis esse. Laboriosam voluptas id deserunt dignissimos nam voluptate architecto magni, suscipit eaque veniam neque alias numquam explicabo earum totam rem similique distinctio sed. Est, nemo ut. Natus, quia illum ex assumenda quibusdam ipsa soluta, consequatur cum temporibus similique quam. Possimus rerum ab doloremque! Quo quod reprehenderit ullam doloremque eius quibusdam, assumenda eaque nobis quis. Nulla tempora totam ut adipisci iste voluptate excepturi, dicta pariatur quia reiciendis eos officiis magnam maxime deserunt impedit qui illo autem sequi eligendi modi odit porro accusantium eum. Vero, animi laudantium ea quos optio nemo earum nulla excepturi, laborum sapiente nam amet repellendus accusantium deleniti blanditiis! Repellendus dolorem error incidunt ad, aliquid et in fugit obcaecati reiciendis repudiandae harum sit ea beatae dolorum sequi, dicta quae vero ratione recusandae deserunt tenetur quibusdam commodi porro id. Odio earum corrupti labore? Quia, non deleniti veritatis totam aspernatur sequi minus enim! Odit sapiente et aliquam quas, ullam porro eaque corrupti necessitatibus quibusdam fugit quisquam modi repellat. Ea obcaecati mollitia quod sequi asperiores harum sunt, ullam ducimus voluptatibus ut, voluptates nisi ratione fuga quisquam quia beatae, maiores laborum quam assumenda! Esse recusandae temporibus, velit sapiente in, suscipit optio voluptatibus praesentium reprehenderit quis aperiam veniam nemo? Dolorem, harum quidem saepe assumenda veritatis nihil soluta repudiandae eligendi porro excepturi enim? Nisi dolorem itaque accusantium tenetur? Sint dolorem facere perspiciatis possimus doloremque hic consequuntur, quaerat enim ea, voluptate repellendus at necessitatibus animi eligendi perferendis, iste quibusdam ipsa adipisci praesentium. -->
+</main>
+
+<button onclick="scrollToTop()" id="topBtn">
+  <i class="fas fa-arrow-up"></i>
+</button>
+
+<!-- <div class="social-media-icons">
+  <ul>
+    <li><a class="whatsapp" href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+    <li><a class="telegram" href="#"><i class="fa-brands fa-telegram"></i></a></li>
+    <li><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></li>
+    <li><a class="instagram" href="#"><i class="fab fa-instagram"></i></a></li>
+    <li><a class="linkedin" href="#"><i class="fab fa-linkedin"></i></a></li>
+  </ul>
+</div> -->
+
+<div class="social-media-list">
+  <ul>
+    <li><a href="https://www.facebook.com/sharer/sharer.php?u=[url]" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+    <li><a href="https://twitter.com/intent/tweet?url=[url]&text=[title]" target="_blank"><i class="fab fa-twitter"></i></a></li>
+    <li><a href="https://www.linkedin.com/shareArticle?mini=true&url=[url]&title=[title]&summary=[summary]&source=[source]" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+    <li><a href="https://wa.me/?text=[url]" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+    <li><a href="https://wa.me/?text=[url]" target="_blank"><i class="fa-solid fa-share-nodes"></i></a></li>
+  </ul>
+</div>
+
+
+
+<footer>
+    <div class="footer-content">
+      <div class="copy">
+        <p>&copy; 2023 All Rights Reserved</p>
+      </div>
+      <div class="contact-info">
+        <p><i class="fas fa-envelope"></i> foryoujobs@gmail.com</p>
+      </div>
+
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-telegram"></i></a>
+        <a href="#"><i class="fa-brands fa-whatsapp"></i>
+        </i></a>
+      </div>
+
+      
+    </div>
+</footer>
+  
+  <script src="../JavaScript/home.js"></script>
 </body>
 </html>
